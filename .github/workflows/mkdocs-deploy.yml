@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - add-scaffolding # Triggers deployment on push to the main branch
+      - main # Triggers deployment on push to the main branch
 
 jobs:
   deploy:
